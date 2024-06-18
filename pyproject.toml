@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "postery"
+version = "0.0.0"
+description = ""
+authors = ["duckrojo <3063609+duckrojo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+parampl = "^0.2.2"
+astropy = "^6.1.1"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
